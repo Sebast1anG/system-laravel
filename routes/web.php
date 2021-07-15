@@ -47,6 +47,7 @@ Route::get('visits/create',[SpecializationController::class, 'create']);
 
 Route::get('visits/',[VisitController::class, 'store']);
 
+Route::get('sms/',[SmsController::class, 'index']);
 
 Auth::routes();
 
